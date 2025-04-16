@@ -21,7 +21,7 @@ def is_safe(levels):
     return True
 
 # Read and parse input
-with open("example.txt", "r") as f:
+with open("input.txt", "r") as f:
     lines = f.read().strip().splitlines()
 print(lines)
 
